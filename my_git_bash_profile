@@ -1,0 +1,35 @@
+alias glo='git log --oneline'
+alias gl2='git log -2'
+
+alias gco='git checkout'
+alias gs='git status'
+alias gpull='git pull'
+alias gpush='git push'
+
+alias ga='git add'
+alias gaa='git add --all'
+alias gc='git commit -m'
+alias gac='git add --all && git commit -m'
+alias gca='git commit --amend'
+alias gcan='git commit --amend --no-edit'
+alias gcane='git commit --amend --no-edit'
+
+alias gd='git diff'
+alias gg='git gui'
+alias gb='git branch'
+alias gbd='git branch -D'
+
+alias gr='git reset'
+alias grhard='git reset --hard'
+alias grmaster='git reset --hard origin/master'
+alias grmain='git reset --hard origin/main'
+
+alias gf='git fetch --prune'
+alias gfp='git pull && git fetch --prune'
+alias grepo='cd ~/OneDrive/Documentos/REPOSITORIO/rumitank-firmware-v2/'
+
+alias vbash='vim ~/.bash_profile'
+alias cbash='cat ~/.bash_profile'
+alias sbash='source ~/.bash_profile'
+
+alias cls='clear && clear && clear'
